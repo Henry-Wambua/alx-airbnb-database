@@ -23,9 +23,9 @@ VALUES
 
 INSERT INTO Payment(payment_id, booking_id, amount, payment_date, payment_method)
 VALUES
-  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d11', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c11', 1750.00, '2024-03-15 14:05:00', 'credit_card'),
-  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d12', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c12', 800.00, '2024-03-20 10:35:00', 'paypal'),
-  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d13', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c15', 1125.00, '2024-04-15 11:35:00', 'stripe');
+  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d11', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c11', 1750.00, '2024-03-15 14:05:00', 'credit/debit'),
+  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d12', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c12', 800.00, '2024-03-20 10:35:00', 'online payments'),
+  ('d0eebc99-9c0b-4ef8-bb6d-6bb9bd380d13', 'c0eebc99-9c0b-4ef8-bb6d-6bb9bd380c15', 1125.00, '2024-04-15 11:35:00', 'mobile money');
 
 INSERT INTO Review(review_id, property_id, user_id, rating, comment, created_at)
   VALUES
